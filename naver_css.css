@@ -1,0 +1,42 @@
+#veta_branding,#veta_top {
+    position: relative;
+    float: left;
+}
+
+#veta_branding span[class^=veta_bd_],#veta_top span[class^=veta_bd_] {
+    opacity: .07;
+    background-color: #000;
+    filter: alpha(opacity=7)
+}
+
+#veta_branding .veta_bd_t,#veta_top .veta_bd_t {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    left: 1px;
+    height: 1px
+}
+
+#veta_branding .veta_bd_b,#veta_top .veta_bd_b {
+    position: absolute;
+    right: 1px;
+    bottom: 0;
+    left: 1px;
+    height: 1px
+}
+
+#veta_branding .veta_bd_l,#veta_top .veta_bd_l {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 1px
+}
+
+#veta_branding .veta_bd_r,#veta_top .veta_bd_r {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 1px
+}
